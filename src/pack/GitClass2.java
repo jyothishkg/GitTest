@@ -9,7 +9,7 @@ public class GitClass2 {
 		// TODO Auto-generated method stub
 		WebDriver driver=new ChromeDriver();
 		driver.get("http://www.google.com");
-
+		driver.close();
 	}
 
 }
